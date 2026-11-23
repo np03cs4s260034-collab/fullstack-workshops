@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LearnHub | Student Learning Resource Platform</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>LearnHub</h1>
+    <p>Free study resources for every student</p>
+  </header>
+
+  <nav class="site-nav">
+    <a href="#courses">Courses</a>
+    <a href="#media">Watch &amp; Listen</a>
+    <a href="#tips">Study Tips</a>
+    <a href="#news">Announcements</a>
+  </nav>
+
+  <img class="hero" src="images/hero.svg" alt="Colourful blocks representing different subjects">
+
+  <div class="layout">
+    <main>
+
+      <section id="courses">
+        <h2>Courses</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="images/card-1.svg" alt="HTML course banner">
+            <h3>HTML Foundations</h3>
+            <p>Structure pages with semantic elements.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">Open resource</a>
+          </article>
+          <article class="card">
+            <img src="images/card-2.svg" alt="CSS course banner">
+            <h3>CSS Layout</h3>
+            <p>Flexbox, Grid and responsive design.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Open resource</a>
+          </article>
+          <article class="card">
+            <img src="images/card-3.svg" alt="Study skills banner">
+            <h3>Study Skills</h3>
+            <p>Plan your week and revise effectively.</p>
+            <a href="#tips">Read tips</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="media">
+        <h2>Watch &amp; Listen</h2>
+        <figure>
+          <video controls width="640">
+          <source src="media/lesson.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>Introduction to the platform (add media/intro.mp4).</figcaption>
+        </figure>
+        <p>Audio lesson:</p>
+        <audio controls>
+          <source src="media/lesson.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+      </section>
+
+      <section id="tips">
+        <h2>Study Tips</h2>
+        <ul>
+          <li>Study in 25-minute blocks with short breaks.</li>
+          <li>Test yourself instead of rereading notes.</li>
+          <li>Start assignments early and ask questions.</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <aside id="news">
+      <h2>Announcements</h2>
+      <article>
+        <h3>Week 1 workshop</h3>
+        <p>Deploy your site to the student server.</p>
+      </article>
+      <article> 
+        <h3>Exam timetable</h3>
+        <p>Check the notice board for dates.</p>
+      </article>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div><h3>LearnHub</h3><p>Built for 5CS045.</p></div>
+    <div><h3>Links</h3><p><a href="#courses">Courses</a></p></div>
+    <div><h3>Contact</h3><p>help@learnhub.example</p></div>
+  </footer>
+
+</body>
+</html>
